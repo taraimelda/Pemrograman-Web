@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Registrasi Akun</title>
+</head>
+<h1>Registrasi Akun</h1>
+<body>
+    <form>
+        <fieldset>
+            <legend><b>Formulir Registrasi</b></legend>
+            <p>
+                <label>Masukkan nama:</label>
+                <input type="text" name="nama" placeholder="Tara Imelda Fatin" >
+            </p>
+            <p>
+                <label>Masukkan NIM:</label>
+                <input type="text" name="nim" placeholder="202332164">
+            </p>
+            <p>
+                <label>Masukkan email:</label>
+                <input type="email" name="email" placeholder="tara2332164@itpln.ac.id" >
+            </p>
+            <p>
+                <label>Jenis Kelamin:</label>
+                <ul></ul>
+                <input type="radio" name="gender" value="Laki-Laki"> Laki-Laki
+                <input type="radio" name="gender" value="Perempuan"> Perempuan
+            </p>
+            <p>
+                <label>Agama:</label>
+                <select name="agama">
+                    <option value="Islam" selected>Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Katolik">Katolik</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Buddha">Buddha</option>
+                    <option value="Konghucu">Konghucu</option>
+                </select>
+            </p>
+            <p>
+                <label>Masukkan password:</label>
+                <input type="text" name="password" placeholder="admin123">
+            </p>
+            <p>
+                <label>Konfirmasi password:</label>
+                <input type="password" name="confirm_password">
+            </p>
+            <p>
+                <input type="submit" value="Daftar">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
