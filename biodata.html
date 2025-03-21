@@ -1,0 +1,68 @@
+<!DOCTYPE html> <!-- Pendeklarasian dokumen HTML -->
+<html lang="en"> <!-- Menandakan awal dokumen HTML, dengan menggunakan bahasa indonesia  -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title> <!-- Judul Halaman yang akan muncul di tab browser -->
+</head>
+    <h1>Biodataku</h1> <!-- Judul Utama Halaman -->
+    <h2>Identitas Diri</h3>  <!-- Subjudul -->
+
+<body>
+    <img width="350px" height="350px" src="IMG_3363.JPG" alt="Foto Profil"> <!-- img digunakan untuk menampilan gambar, width dan height untuk mengatur ukuran gambar, sedangkan alt adalah teks alternatif jika gambar error -->
+    <ul> <!-- membuat daftar tidak berurutan -->
+        <li> Nama : Tara Imelda Fatin</li> <!-- untuk penggunaan bullet list -->
+        <li> Nim  : 202332164</li>
+        <li> Prodi: Sistem Informasi</li>
+        <li>Alamat: Jl.Raya Duri Kosambi, Jakarta Barat</li>
+        <li>Email : tara2332164@itpln.ac.id</li>
+    </ul>
+
+    
+    <h2>Hobi</h2> <!-- Subjudul -->
+    <img width="300px" height="250px" src="musik.jpeg" alt="Hobi1">
+    <img width="250px" height="250px" src="film.jpg" alt="Hobi2"> <!-- Menampilkan 2 gambar sebagai hobi, alt berfungsi sebagai deskripsi gambar jika gambar tidak bisa dimuat atau error -->
+    <ul> <!-- Untuk memuat daftar hobi  -->
+    <p>1. Mendengarkan musik</p>
+    <p>2. Menonton film</p>
+    </ul>
+
+    <h2>Riwayat Pendidikan</h2> <!-- Subjudul Riwayat Pendidikan  -->
+    <table border=1> <!-- membuat tabel dengan adanya garis pembatas, style dibawah digunakan untuk mengatur tampilan yabel agar lebih rapi  --> 
+        <style>  
+            table { 
+                width: 50%; 
+                border-collapse: collapse;
+                margin: 10px 0;
+            }
+            th, td {
+                border: 1px solid #000000;
+                padding: 5px;
+                text-align: left;
+            }
+            th {
+                background-color: #398af5;
+            }
+            td ul, td ol {
+                margin: 0;
+                padding-left: 10px; 
+            }
+        </style> <!-- width digunakan untuk lebar tabel, height sebagai tinggi tabel, menggunakan margin 10 px, agar ada jarak antar baris di tabel -->
+		<thead>
+    <table>
+        <tr> 
+            <th>No</th>
+            <th>Tingkat Pendidikan</th>
+            <th>Nama Sekolah</th>
+            <th>Tahun</th>
+        </tr>
+
+        <tr><td>1</td><td>SD</td><td>SDN 12 Padangsidimpuan </td><td>2011</td></tr>
+        <tr><td>2</td><td>SMP</td><td>SMPN 1 Padangsidimpuan</td><td>2017</td></tr>
+        <tr><td>3</td><td>SMA</td><td>SMAN 1 Padangsidimpuan</td><td>2020</td></tr>
+        <tr><td>4</td><td>S1</td><td>Institut Teknologi PLN</td><td>2023</td></tr>
+    </table>
+
+
+</body>
+</html>
